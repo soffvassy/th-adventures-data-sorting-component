@@ -1,0 +1,51 @@
+[
+	{
+	  "title": "HTML",
+	  "description": "HTML (Hypertext Markup Language) is the standard language for creating and structuring web pages. It uses tags to organize content and elements on the web. HTML is essential for building the backbone of any website.",
+	  "color": "#6EB1E4",
+	  "status": "completed"
+	},
+	{
+	  "title": "CSS",
+	  "description": "CSS (Cascading Style Sheets) is used to style and layout web pages. It controls colors, fonts, and layout, allowing for visually appealing designs. CSS works alongside HTML to create a seamless web experience.",
+	  "color": "#E4AE6E",
+	  "status": "completed"
+	},
+	{
+	  "title": "JavaScript",
+	  "description": "JavaScript is a versatile programming language for adding interactivity to web pages. It enables dynamic content, animations, and complex user interfaces, making websites more engaging and functional.",
+	  "color": "#BEE46E",
+	  "status": "completed"
+	},
+	{
+	  "title": "Python",
+	  "description": "Python is a high-level programming language known for its simplicity and readability. It's widely used in web development, data analysis, machine learning, and automation.",
+	  "color": "#CC6EE4",
+	  "status": "not started"
+	},
+	{
+	  "title": "React",
+	  "description": "React is a JavaScript library for building user interfaces, especially for single-page applications. It allows developers to create reusable components for dynamic and efficient UI rendering.",
+	  "color": "#6EE4E4",
+	  "status": "in progress"
+	},
+	{
+	  "title": "Vue",
+	  "description": "Vue.js is a progressive JavaScript framework for building user interfaces. It is versatile and easy to integrate with other projects, especially for developing web applications.",
+	  "color": "#936EE4",
+	  "status": "not started"
+	},
+	{
+	  "title": "Angular",
+	  "description": "Angular is a robust web application framework maintained by Google. It provides a comprehensive structure for creating complex, single-page applications with a full-featured front-end toolkit.",
+	  "color": "#E46E9C",
+	  "status": "not started"
+	},
+	{
+	  "title": "NPM",
+	  "description": "NPM (Node Package Manager) is a package manager for JavaScript, enabling developers to install and manage project dependencies. It’s essential for modern web development workflows and collaboration.",
+	  "color": "#6EE479",
+	  "status": "in progress"
+	}
+  ]
+  

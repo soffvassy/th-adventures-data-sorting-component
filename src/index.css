@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-color: #313639;
+}
+
+h1 {
+  color: #FFFFFF;
+  margin: 10%;
+  font-size: 55px;
+  margin-bottom: 0;
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+.component {
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #222527;
+  margin: 0 10%;
+}
+.component.list .wrap-container {
+  display: flex;
+  flex-direction: column;
+}
+.component.list .wrap-container .container {
+  margin-bottom: 10px;
+  background-color: #313639;
+  border-radius: 5px;
+}
+.component.list .wrap-container .container-inner {
+  flex-direction: row;
+}
+.component.list .wrap-container .container-inner > div {
+  flex: none;
+  width: 100px;
+  border-radius: 5px;
+}
+.component.list .wrap-container .container-inner h2 {
+  align-self: center;
+  padding: 0 20px;
+  flex: 0 0 15%;
+}
+.component.list .wrap-container .container-inner p {
+  align-self: center;
+  display: -webkit-box;
+  max-width: 800px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 13px;
+}
+.component.list .wrap-container .container-inner span {
+  align-self: center;
+  flex: 0 0 10%;
+  margin-left: 25px;
+  font-size: 12px;
+}
+.component button {
+  margin: 10px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #222527;
+  position: relative;
+}
+.component button.active:after {
+  width: 100%;
+}
+.component button:after {
+  transition: width 0.2s ease;
+  width: 0;
+  content: "";
+  height: 1px;
+  background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.component button:hover {
+  cursor: pointer;
+}
+.component button:hover:after {
+  width: 100%;
+  transition: width 0.2s ease;
+}
+.component .search {
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  padding-left: 15px;
+  margin-left: 10px;
+  background-color: #787C7F;
+  color: #FFFFFF;
+}
+.component .search::placeholder {
+  color: #FFFFFF;
+}
+
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrap-container .container {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 10px;
+  flex: 0 0 25%;
+  gap: 10px;
+}
+.wrap-container .container .container-inner {
+  margin: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #313639;
+  position: relative;
+}
+.wrap-container .container .container-inner > div {
+  width: 100%;
+  height: 100px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.wrap-container .container .container-inner h2 {
+  display: inline;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  margin: 10px 15px;
+  font-weight: 200;
+}
+.wrap-container .container .container-inner p {
+  display: inline;
+  color: #787C7F;
+  margin: 0 15px;
+  display: -webkit-box;
+  max-width: 800px;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 13px;
+}
+.wrap-container .container .container-inner span {
+  position: absolute;
+  top: 118px;
+  right: 15px;
+  font-size: 11px;
+}
+.wrap-container .container .container-inner span.green {
+  color: rgb(81, 148, 81);
+}
+.wrap-container .container .container-inner span.yellow {
+  color: rgb(230, 230, 181);
+}
+
+/*# sourceMappingURL=index.css.map */
