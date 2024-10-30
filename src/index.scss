@@ -10,7 +10,7 @@ body {
 
 h1 {
     color: $text-primary-color;
-    margin: 10%;
+    margin: 50px 10%;
     font-size: 55px;
     margin-bottom: 0;
     text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
@@ -37,17 +37,19 @@ h1 {
 
             .container-inner {
                 flex-direction: row;
+                padding-bottom: 0;
 
                 >div { 
                     flex: none;
                     width: 100px;
                     border-radius: 5px;
+                    border-bottom: none;
                 }
 
                 h2 {
                     align-self: center;
                     padding: 0 20px;
-                    flex: 0 0 15%;
+                    flex: 0 0 10%;
                 }
 
                 p {
@@ -65,6 +67,9 @@ h1 {
                     flex: 0 0 10%;
                     margin-left: 25px;
                     font-size: 12px;
+                    position: relative;
+                    top: inherit;
+                    right: inherit;
                 }
             }
         }
@@ -79,6 +84,10 @@ h1 {
         color: $text-primary-color;
         background-color: $primary-color;
         position: relative;
+
+        &.view {
+            float: right;
+        }
 
         &.active {
             &:after {
@@ -146,6 +155,7 @@ h1 {
             flex-direction: column;
             background-color: $secondary-color;
             position: relative;
+            border-radius: 5px;
             
 
             >div {
@@ -153,6 +163,7 @@ h1 {
                 height: 100px;
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
+                border-bottom: 5px solid $primary-color;
             }
 
             h2 {
@@ -173,14 +184,14 @@ h1 {
                 -webkit-box-orient: vertical;
                 overflow: hidden;
                 font-size: 13px;
-
             }
 
             span {
                 position: absolute;
-                top: 118px;
+                top: 123px;
                 right: 15px;
                 font-size: 11px;
+                color: $text-secondary-color;
 
                 &.green {
                     color: rgb(81, 148, 81);

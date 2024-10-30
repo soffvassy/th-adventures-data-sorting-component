@@ -31,8 +31,8 @@ function App() {
       value={searchValue}
       onChange={(e)=>setSearchValue(e.target.value)}
       />
-      <button className={view==="grid" ? "active" : ""} value="grid" onClick={(e)=>setView(e.target.value.toLowerCase())}>Grid</button>
-      <button className={view==="list" ? "active" : ""} value="list" onClick={(e)=>setView(e.target.value.toLowerCase())}>List</button>
+      <button className={`view ${view==="grid" ? "active" : ""}`}  value="grid" onClick={(e)=>setView(e.target.value.toLowerCase())}>Grid</button>
+      <button className={`view ${view==="list" ? "active" : ""}`}  value="list" onClick={(e)=>setView(e.target.value.toLowerCase())}>List</button>
       <div className="statuses">
         <button className={statusValue==="completed" ? "active" : ""} value="completed" onClick={(e)=>setStatusValue(e.target.value)}>completed</button>
         <button className={statusValue==="in progress" ? "active" : ""} value="in progress" onClick={(e)=>setStatusValue(e.target.value)}>in progress</button>
